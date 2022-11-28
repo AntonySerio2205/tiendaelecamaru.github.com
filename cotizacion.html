@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizacion</title>
+    <link rel="stylesheet" href="cotizacion.css">
+</head>
+<body>
+    <header>
+        <b>TIENDA DE COMPONENTES DE <br> ELECTRONICA Y ROBOTICA "AMARU"</b>
+    </header>
+    <nav>
+        <a href="inicio.html">Inicio</a>
+        <a data-aos="flip-left" href="cotizacion.html">Cotización</a>
+        <a href="informacion.html">Información</a>
+    </nav>
+    <section data-aos="zoom-in">
+        <div>
+            <h2>Ingrese los datos de los componentes que quiere cotizar</h2>
+            <textarea name="Componentes" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <form action="" >
+                <p id="regis">Datos de envio</p>
+                <input type="text" id="nombre" placeholder="Nombres:" required="true"><br>
+                <input type="text" id="apellido" placeholder="Apellidos:" required="true"><br>
+                <input type="number" id="telefono" placeholder="Telefono:"><br>
+                <input type="text" id="direccion" placeholder="Direccion:"><br>
+                <input type="email" id="correo" placeholder="CorreroElectronico@gmail.com"><br>
+                <input type="date" id="fecha_nac" placeholder="Fecha De Naciemiento"><br>
+                    <div id="botons">
+                        <button>Enviar Cotización</button>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+        
+        <h2>
+            Recibira su Respuesta por Correo Electrónico o por Whatsapp
+        </h2>
+    </section>
+    <footer>
+        Copyright © 2022 Tienda de Componentes de Electrónica y Robótica Amaru by #34 Sergio Antonio Quispe Condori
+    </footer>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+          AOS.init();
+        </script>
+</body>
+</html>

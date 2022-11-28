@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Cooper Black";
+    src: url("fonts/JandaManateeSolid.ttf");
+  }
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(39, 41, 40);
+}
+header{
+    padding: 30px;
+    background-image: url(Imagenes/Header.jpg);
+    background-repeat: round;
+    width: 100%;
+    height: 10%;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    -webkit-text-stroke: 2px black;
+    font-family: "Cooper Black", serif;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    background-color: rgb(3, 43, 9) ;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+nav>a{
+    color: white;
+}
+section{
+    margin: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(204, 207, 204);
+    border-radius: 3% 3% 0% 0%;
+    
+}
+section>div{
+    width: 30%;
+    border: solid black;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    border-radius:  5% 5% 0% 0%;
+    flex-wrap: wrap;
+    background-color: rgb(130, 214, 130);
+}
+section>div>h2{
+    background-color: rgb(21, 92, 3);
+    color: white;
+    text-align: center;
+    padding: 2%;
+    margin: 0%;
+    width: 100%;
+    
+}
+section>div>img{
+    width: 90%;
+}
+footer{
+    text-align: center;
+    color: white;
+}
+section>div:hover
+{
+    background-color: rgb(14, 150, 93);
+    transform: scale(1.2);
+    
+}
+
+
+section>div>img:hover
+{
+    -webkit-animation-duration:3s;
+ animation-duration:3s;
+ -webkit-animation-duration:calc(var(--animate-duration)*3);
+ animation-duration:calc(var(--animate-duration)*3)
+
+}

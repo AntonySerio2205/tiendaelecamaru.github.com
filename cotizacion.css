@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Cooper Black";
+    src: url("fonts/JandaManateeSolid.ttf");
+  }
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(39, 41, 40);
+}
+header{
+    padding: 30px;
+    background-image: url(Imagenes/Header.jpg);
+    background-repeat: round;
+    width: 100%;
+    height: 10%;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    -webkit-text-stroke: 2px black;
+    font-family: "Cooper Black", serif;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    background-color: rgb(3, 43, 9) ;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+nav>a{
+    color: white;
+}
+form {
+    width: 400px;
+    border-radius: 50px;
+    background-color: rgb(12, 136, 12);
+    padding: 25px;
+    margin: 3% 0%;
+    
+}
+input {
+    width: 380px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px 0px 5px 15px;
+    margin: 2% 0% 5%;
+}
+#regis {
+    text-align: center;
+    border-radius: 25px;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 40px;
+    margin: 20px 0px;
+    background-color: rgb(1, 32, 15);
+    
+}
+
+
+button {
+
+    border: 0px;
+    background-color: rgb(209, 25, 25);
+    border-radius: 50px;
+    height: 2.5rem;
+    width: 15rem;
+    margin: 0px 10px;
+    font-weight: bolder;
+    color: aliceblue;
+
+}
+footer{
+    text-align: center;
+    color: white;
+}
+section{
+    margin: 2% 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(204, 207, 204);
+    border-radius: 3%;
+}
+section>div{
+    width: 40%;
+    text-align: center;
+}
+textarea{
+    width: 100%;
+    height: 80%;
+}
+section>h2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

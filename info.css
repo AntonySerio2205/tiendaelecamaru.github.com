@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Cooper Black";
+    src: url("fonts/JandaManateeSolid.ttf");
+  }
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(39, 41, 40);
+}
+header{
+    padding: 30px;
+    background-image: url(Imagenes/Header.jpg);
+    background-repeat: round;
+    width: 100%;
+    height: 10%;
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    -webkit-text-stroke: 2px black;
+    font-family: "Cooper Black", serif;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    background-color: rgb(3, 43, 9) ;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+nav>a{
+    color: white;
+}
+footer{
+    text-align: center;
+    color: white;
+}
+section{
+    margin: 2% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(204, 207, 204);
+    border-radius: 3%;
+    
+}
+section>div>a{
+    margin: 0 0 24px;
+    background-color: #88b06a;
+    padding: 18px 54px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+section>div{
+    background-color: rgb(226, 226, 226);
+    padding: 2% 10%;
+    
+}
+#map{
+    border: solid black;
+}
